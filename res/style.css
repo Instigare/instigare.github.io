@@ -1,6 +1,5 @@
 html {
-	background: url("images/bg.png") no-repeat center center fixed;
-	background-size: cover;
+	background-color: black;
 }
 
 body {
@@ -28,7 +27,25 @@ li a {
 	text-decoration: none;
 }
 
-/* Change the link color to #111 (black) on hover */
 li a:hover {
 	background-color: #111;
+}
+
+pre {
+	font-size: 18px;
+	padding: 2px 30px;
+	color: white;
+}
+
+p {
+	font-size: 18px;
+	padding: 0px 480px 0px 30px;
+	color: white;
+	text-align: justify;
+	text-justify: inter-word;
+}
+
+p a {
+	color: white;
+	text-decoration: none;
 }
