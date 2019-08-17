@@ -1,4 +1,8 @@
-.navbar {
+body {
+	font-family: 'Lexend Deca', sans-serif;
+}
+
+.nav {
 	font-family: 'Source Code Pro', monospace;
 	font-size: 14px;
 }
@@ -13,6 +17,12 @@
 
 .jumbotron {
 	padding: 100px 25px;
+}
+
+h2 {
+	font-family: 'Satisfy', cursive;
+	font-size: 48px;
+	padding: 48px 48px;
 }
 
 @media only screen and (min-width: 1025px) {
