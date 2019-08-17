@@ -1,51 +1,22 @@
-html {
-	background-color: black;
-}
-
-body {
+.navbar {
 	font-family: 'Source Code Pro', monospace;
 	font-size: 14px;
 }
 
-ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	background-color: #333;
+.fab {
+	padding: 10px 10px;
 }
 
-li {
-	float: left;
+.fas {
+	padding: 10px 10px;
 }
 
-li a {
-	display: block;
-	color: white;
-	text-align: center;
-	padding: 10px 12px;
-	text-decoration: none;
+.jumbotron {
+	padding: 100px 25px;
 }
 
-li a:hover {
-	background-color: #111;
-}
-
-pre {
-	font-size: 18px;
-	padding: 2px 30px;
-	color: white;
-}
-
-p {
-	font-size: 18px;
-	padding: 0px 240px 0px 30px;
-	color: white;
-	text-align: justify;
-	text-justify: inter-word;
-}
-
-p a {
-	color: white;
-	text-decoration: none;
+@media only screen and (min-width: 1025px) {
+	.jumbotron {
+		height: 100vh;
+	}
 }
