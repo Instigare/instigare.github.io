@@ -25,11 +25,6 @@ h2 {
 	padding: 48px 48px;
 }
 
-.textbox {
-	padding-left: 200px;
-	padding-right: 200px;
-}
-
 .footer {
   position: absolute;
   right: 0;
@@ -44,6 +39,10 @@ h2 {
 	.jumbotron {
 		height: 100vh;
 	}
+  .textbox {
+  padding-left: 200px;
+  padding-right: 200px;
+  }
 }
 
 /* headlines with lines */
