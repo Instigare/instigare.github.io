@@ -24,6 +24,12 @@
 
 	<link rel="stylesheet" href="res/style.css">
 
+	<script>
+		$(document).ready(function(){
+			$('[data-toggle="popover"]').popover();
+		});
+	</script>
+
 </head>
 
 
@@ -36,7 +42,7 @@
 			<span style="font-size: 32px;">
 				<a href="https://github.com/instigare"><i class="fab fa-github"></i></a>
 				<a href="https://www.linkedin.com/in/akra/"><i class="fab fa-linkedin"></i></a>
-				<i class="fas fa-envelope"></i>
+				<a href="#" onclick="return false;" data-toggle="popover" data-trigger="focus" data-content="alvi@kazi.sh"><i class="fas fa-envelope"></i></a>
 			</span>
 		</div>
 	</div>
@@ -66,7 +72,7 @@
 
 	<div class="container text-center">
 		<h2 class="decorated"><span>About Me</span></h2>
-		<p class="textbox">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum </p>
+		<p class="textbox">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
 	</div>
 
 	<div class="container text-center">

@@ -35,6 +35,10 @@ h2 {
   text-align: center;
 }
 
+img {
+  max-width: 90%;
+}
+
 @media only screen and (min-width: 1025px) {
 	.jumbotron {
 		height: 100vh;
