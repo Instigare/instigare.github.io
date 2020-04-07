@@ -13,14 +13,15 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 
 	<!-- Icons -->
-	<script src="https://kit.fontawesome.com/23ae4316dd.js"></script>
-	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+	<script src="https://code.iconify.design/1/1.0.5/iconify.min.js"></script>	<!-- Iconify Simple Icons -->
+	<link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css"> <!-- Devicons -->
 
 	<!-- Fonts -->
 	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Source+Code+Pro">
 	<link href="https://fonts.googleapis.com/css?family=Satisfy&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lexend+Giga&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Lexend+Deca&display=swap" rel="stylesheet"> 
+	<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
 
 	<link rel="stylesheet" href="res/style.css">
 
@@ -35,14 +36,22 @@
 
 <body>
 	<div class="jumbotron text-center">
-		<img src="res/img/meirl.png" class="img-circle" style = "max-width: 90%; max-height: 70%;"> 
+		<img src="res/img/meirl.jpg" class="img-circle" style = "max-width: 90%; max-height: 70%;"> 
 		<h1 style="font-family: 'Satisfy', cursive; font-size: 6em; padding: 10px;">Alvi Kazi</h1>
 		<p style="font-family: 'Lexend Giga', sans-serif; font-size: 1.5em; padding: 10px;">Aspiring Engineer</p>
 		<div class="container">
 			<span style="font-size: 32px;">
-				<a href="https://github.com/instigare"><i class="fab fa-github"></i></a>
-				<a href="https://www.linkedin.com/in/akra/"><i class="fab fa-linkedin"></i></a>
-				<a href="#" onclick="return false;" data-toggle="popover" data-trigger="focus" data-content="alvi@kazi.sh"><i class="fas fa-envelope"></i></a>
+				<a href="https://github.com/lvctr">
+					<span class="iconify" data-icon="simple-icons:github" data-inline="false"></span>
+				</a>
+				&nbsp;&nbsp;
+				<a href="https://www.linkedin.com/in/akra/">
+					<span class="iconify" data-icon="simple-icons:linkedin" data-inline="false"></span>
+				</a>
+				&nbsp;&nbsp;
+				<a href="#" onclick="return false;" data-toggle="popover" data-placement="bottom" data-trigger="focus" data-content="alvi@kazi.sh">
+					<span class="iconify" data-icon="simple-icons:gmail" data-inline="false"></span>
+				</a>
 			</span>
 		</div>
 	</div>
@@ -72,30 +81,39 @@
 
 	<div class="container text-center">
 		<h2 class="decorated"><span>About Me</span></h2>
-		<p class="textbox">Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum</p>
+
+		<p class="textbox">Born to Bangladeshi parents in Japan, grew up in Japan, Singapore, and Malaysia. Currently studying Computer Science at Toyo University in Tokyo, Japan. I speak four languages, and that does not include my finesse in various programming languages. I love writing software and am open to freelance offers. Feel free to message me in any of the platforms below my photo. Currently interning at SoftBank Robotics as a Software Enginner Intern and am also studying for Graduate School in Astronomy.</p>
+		<p class="ja textbox">
+			日本生まれ、日本・シンガポール・マレーシア育ちのバングラデッシュ人で、現在東洋大学でコンピュータサイエンスを勉強しています。
+			ソフトバンク・ロボティクスにて長期インターンとして努めており、大学院天文学専攻に受かるため一生懸命院試の勉強も続けています。
+			プログラミング言語抜きで4ヶ国語喋れます。ソフトウェア開発が大好きで、フリーランスのオファーは大歓迎です。
+			自分の写真の下にあるリンクから遠慮なく連絡して頂けると幸いです。
+			よろしくお願いします。
+		</p>
 	</div>
 
 	<div class="container text-center">
 		<h2 id="skills" class="decorated"><span>Skill Set</span></h2>
 
 		<h3>Spoken Languages</h3>
+		<br>
 		<div class="row">
-			<div class="col-sm-3">
+			<div class="col-xs-6 col-sm-3">
 				<img src="res/img/flag-jp.png">
 				<h4>JAPANESE</h4>
 				<i><p>Native</p></i>
 			</div>
-			<div class="col-sm-3">
+			<div class="col-xs-6 col-sm-3">
 				<img src="res/img/flag-gb.png">
 				<h4>ENGLISH</h4>
 				<i><p>Native</p></i>
 			</div>
-			<div class="col-sm-3">
+			<div class="col-xs-6 col-sm-3">
 				<img src="res/img/flag-bd.png">
 				<h4>BENGALI</h4>
 				<i><p>Conversational</p></i>
 			</div>
-			<div class="col-sm-3">
+			<div class="col-xs-6 col-sm-3">
 				<img src="res/img/flag-fr.png">
 				<h4>FRENCH</h4>
 				<i><p>Conversational</p></i>
@@ -103,45 +121,44 @@
 		</div>
 
 		<h3>Programming Languages</h3>
+		<br>
 		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-xs-6 col-sm-4">
 				<span style="font-size: 96px;">
-					<i class="devicon-javascript-plain"></i>
+					<span class="iconify" data-icon="simple-icons:javascript" data-inline="false"></span>
 				</span>
 				<h4>JavaScript</h4>
 				<p>3 years</p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-xs-6 col-sm-4">
 				<span style="font-size: 96px;">
-					<i class="devicon-java-plain"></i>
+					<span class="iconify" data-icon="simple-icons:java" data-inline="false"></span>
 				</span>
 				<h4>Java</h4>
 				<p>2 years</p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-xs-6 col-sm-4">
 				<span style="font-size: 96px;">
-					<i class="devicon-python-plain"></i>
+					<span class="iconify" data-icon="simple-icons:python" data-inline="false"></span>
 				</span>
 				<h4>Python</h4>
 				<p>7 years</p>
 			</div>
-		</div>
-		<div class="row">
-			<div class="col-sm-4">
+			<div class="col-xs-6 col-sm-4">
 				<span style="font-size: 96px;">
-					<i class="devicon-c-plain"></i>
+					<span class="iconify" data-icon="simple-icons:ocaml" data-inline="false"></span>
 				</span>
 				<h4>OCaml</h4>
 				<p>5 months</p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-xs-6 col-sm-4">
 				<span style="font-size: 96px;">
 					<i class="devicon-c-plain"></i>
 				</span>
 				<h4>C</h4>
 				<p>2 years</p>
 			</div>
-			<div class="col-sm-4">
+			<div class="col-xs-6 col-sm-4">
 				<span style="font-size: 96px;">
 					<i class="devicon-visualstudio-plain"></i>
 				</span>
@@ -152,6 +169,7 @@
 		</span>
 
 		<h3>Other Technical Skills</h3>
+		<br>
 		<p>Placeholder...</p>
 	</div>
 

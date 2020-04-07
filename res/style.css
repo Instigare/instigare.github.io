@@ -1,5 +1,14 @@
+/*@font-face {
+  font-family: "M PLUS Rounded 1c";
+  unicode-range: U+4E00-9FBF, U+3040-309F, U+30A0-30FF;
+}*/
+
 body {
 	font-family: 'Lexend Deca', sans-serif;
+}
+
+.ja {
+  font-family: "M PLUS Rounded 1c";
 }
 
 .nav {
